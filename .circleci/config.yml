@@ -109,7 +109,7 @@ jobs:
 
   "debian-wheezy-gcc":
     docker:
-      - image: debian:wheezy
+      - image: debian:bookworm
     working_directory: ~/repo
     steps:
       - checkout
@@ -120,7 +120,7 @@ jobs:
 
   "debian-wheezy-cmake":
     docker:
-      - image: debian:wheezy
+      - image: debian:bookworm
     working_directory: ~/repo
     steps:
       - checkout
@@ -131,7 +131,7 @@ jobs:
 
   "debian-jessie-gcc":
     docker:
-      - image: debian:jessie
+      - image: debian:bookworm
     working_directory: ~/repo
     steps:
       - checkout
@@ -142,7 +142,7 @@ jobs:
 
   "debian-jessie-cmake":
     docker:
-      - image: debian:jessie
+      - image: debian:bookworm
     working_directory: ~/repo
     steps:
       - checkout
@@ -153,7 +153,7 @@ jobs:
 
   "debian-jessie-python":
     docker:
-      - image: debian:jessie
+      - image: debian:bookworm
     working_directory: ~/repo
     steps:
       - checkout
