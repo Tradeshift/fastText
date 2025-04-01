@@ -187,7 +187,7 @@ setup(
         'Operating System :: Unix',
         'Operating System :: MacOS',
     ],
-    install_requires=['pybind11>=2.13.6', "setuptools >=75.8.2", "numpy"],
+    install_requires=['pybind11>=2.13.6', "setuptools >=75.9.1", "numpy"],
     cmdclass={'build_ext': BuildExt},
     packages=[
         str('fastText'),
